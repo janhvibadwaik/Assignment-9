@@ -1,0 +1,34 @@
+.owner-image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #2c3e50;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.contact, .location {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.items-list li:hover {
+    background-color: #b3e5fc;
+}
+
+.order-form button:hover {
+    background-color: #2e7d32;
+}
